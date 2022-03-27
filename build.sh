@@ -17,7 +17,7 @@ INCLUDE_PATH=("." "D:\workspace\dev\cpp\mingw64\include" "D:\workspace\dev\cpp\m
 LIB_PATH=("D:\workspace\dev\cpp\mingw64\lib" "D:\workspace\dev\cpp\mingw64\x86_64-w64-mingw32\lib" "D:\workspace\dev\cpp\glfw\lib-mingw-w64")
 
 CC=g++.exe
-CFLAGS=(-std=c++17 -static-libstdc++ -static-libgcc)
+CFLAGS=(-std=c++17 -static-libstdc++ -static-libgcc -MMD)
 CLIBS=(-lmingw32 -lopengl32 -lgdi32 -lglfw3)
 CONVERT_TO_WIN_PATH=true
 

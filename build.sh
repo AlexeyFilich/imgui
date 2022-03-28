@@ -11,7 +11,6 @@ project_path=$(pwd -P)
 BACKENDS=("./backends/imgui_impl_glfw.cpp" "./backends/imgui_impl_opengl3.cpp")
 
 SOURCES=($(find . -type f -name "*.cpp" ! -path "./backends/*" ! -path "./examples/*" ! -path "./misc/*") "${BACKENDS[@]}")
-echo ${SOURCES[@]}
 
 INCLUDE_PATH=("." "D:\workspace\dev\cpp\mingw64\include" "D:\workspace\dev\cpp\mingw64\x86_64-w64-mingw32\include" "D:\workspace\dev\cpp\glfw\include")
 LIB_PATH=("D:\workspace\dev\cpp\mingw64\lib" "D:\workspace\dev\cpp\mingw64\x86_64-w64-mingw32\lib" "D:\workspace\dev\cpp\glfw\lib-mingw-w64")

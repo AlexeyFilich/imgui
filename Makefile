@@ -1,8 +1,8 @@
 CC := g++.exe
 CFLAGS := -std=c++17 -static-libstdc++ -static-libgcc
 LDFLAGS := -lmingw32 -lopengl32 -lgdi32 -lglfw3
-INCLUDE_PATH := "." "D:\workspace\dev\cpp\mingw64\include" "D:\workspace\dev\cpp\mingw64\x86_64-w64-mingw32\include" "D:\workspace\dev\cpp\glfw\include"
-LIB_PATH := "D:\workspace\dev\cpp\mingw64\lib" "D:\workspace\dev\cpp\mingw64\x86_64-w64-mingw32\lib" "D:\workspace\dev\cpp\glfw\lib-mingw-w64"
+INCLUDE_PATH := "." "D:\workspace\dev\cpp\mingw64\include" "D:\workspace\dev\cpp\mingw64\x86_64-w64-mingw32\include" "D:\workspace\dev\cpp\glfw\include" "D:\workspace\dev\cpp\SDL2\x86_64-w64-mingw32\include"
+LIB_PATH := "D:\workspace\dev\cpp\mingw64\lib" "D:\workspace\dev\cpp\mingw64\x86_64-w64-mingw32\lib" "D:\workspace\dev\cpp\glfw\lib-mingw-w64" "D:\workspace\dev\cpp\SDL2\x86_64-w64-mingw32\lib"
 
 BUILDDIIR := build
 
